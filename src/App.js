@@ -9,6 +9,7 @@ import Titlepage from './components/Titlepage';
 import Teampage from './components/Teampage';
 import Toolpage from './components/Toolpage';
 import URpage from './components/URpage';
+import Backpage from './components/Backpage';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Route path='/team' element={<Teampage/>}/>
       <Route path='/tool' element={<Toolpage/>}/>
       <Route path='/ur' element={<URpage/>}/>
-      
+      <Route path='back' element={<Backpage/>}/>
     </Routes>
   );
 }
