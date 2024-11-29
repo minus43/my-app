@@ -11,6 +11,7 @@ import Toolpage from './components/Toolpage';
 import URpage from './components/URpage';
 import Backpage from './components/Backpage';
 import Frontpage from './components/Frontpage';
+import Resultpage from './components/Resultpage';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path='/ur' element={<URpage/>}/>
       <Route path='back' element={<Backpage/>}/>
       <Route path='front' element={<Frontpage/>}/>
+      <Route path='result' element={<Resultpage/>}/>
     </Routes>
   );
 }
