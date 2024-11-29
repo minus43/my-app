@@ -7,6 +7,7 @@ import Registerpage from './components/Registerpage';
 import Mypage from './components/Mypage';
 import Titlepage from './components/Titlepage';
 import Teampage from './components/Teampage';
+import Toolpage from './components/Toolpage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path='/mypage' element={<Mypage/>}/>
       <Route path='/title' element={<Titlepage/>}/>
       <Route path='/team' element={<Teampage/>}/>
+      <Route path='/tool' element={<Toolpage/>}/>
     </Routes>
   );
 }
