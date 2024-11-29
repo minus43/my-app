@@ -8,6 +8,7 @@ import Mypage from './components/Mypage';
 import Titlepage from './components/Titlepage';
 import Teampage from './components/Teampage';
 import Toolpage from './components/Toolpage';
+import URpage from './components/URpage';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Route path='/title' element={<Titlepage/>}/>
       <Route path='/team' element={<Teampage/>}/>
       <Route path='/tool' element={<Toolpage/>}/>
+      <Route path='/ur' element={<URpage/>}/>
+      
     </Routes>
   );
 }
