@@ -6,6 +6,7 @@ import Loginpage from './components/Loginpage';
 import Registerpage from './components/Registerpage';
 import Mypage from './components/Mypage';
 import Titlepage from './components/Titlepage';
+import Teampage from './components/Teampage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path='/register' element={<Registerpage/>}/>
       <Route path='/mypage' element={<Mypage/>}/>
       <Route path='/title' element={<Titlepage/>}/>
+      <Route path='/team' element={<Teampage/>}/>
     </Routes>
   );
 }
